@@ -1,0 +1,166 @@
+
+.navbar {
+    overflow: hidden;
+    background-color: red;
+    font-family: Arial;
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: red;   
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: gray;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    z-index: 5;
+}
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.head1{
+    font-size: 30  ;
+    background-color:black;
+}
+.f-order{
+	widows:20%;
+	height:25%;
+	float:left;
+}
+.f-order a{
+    padding:15px;
+}
+.f-order h2{
+    padding-left: 43px;
+}
+.f-order-in{
+    width:15%;
+	height:30%;
+	float:left;
+}
+.f-order ul{
+    color: white;
+	font-size:20px;
+}
+.f-order-in h2{
+    padding-left: 40px;
+}
+hr{
+	overflow:hidden;
+}
+.f-order-in ul{
+    color: white;
+}
+.f-order-in a{
+	text-decoration: none;
+	color:white;
+	font-size:20px;
+}
+body{
+       background-color: black;
+}
+center h1{
+	color:white;
+}
+.f-about{
+	color:white;
+	width:20%;
+	height:25%;
+	float:left
+}
+.f-about a{
+	text-decoration: none;
+	color:white;
+	font-size:20px;
+}	
+.f-form input{
+	padding: 10px ;
+    font-size: 14px;
+    background: none;
+    border: 1px #fff solid;
+    border-radius: 3px;
+    color: #fff;
+    width: 325px;
+    height: auto;
+}
+
+.f-form textarea{
+	padding: 10px;
+    font-size: 14px;
+    background: none;
+    border: 1px #fff solid;
+    border-radius: 3px;
+    color: #fff;
+    width: 325px;
+    height: auto;
+}
+.f-form
+{
+	padding: 0;
+	margin: 10px 0;
+	margin-left:750px;
+	position:relative;
+}
+.foot_des
+{	
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.7;
+	letter-spacing: 1px;
+	text-align: justify;
+	font-size:14px;
+
+}
+.f-form button{
+	padding:5px;
+	width:50%;
+	color:#fff;
+	font-size:17px;
+	border-radius:5px;
+	border-color:red;
+	letter-spacing:1px;
+	background-color:red;
+}
+.p-img{
+				color:white;
+				width:50%;
+				height:50%;
+				float:left;
+}
+.p-img h5{
+				color:gray;			
+}
+.p-img h1{
+				font-size:55px;
+				font-family:Chiller;
+}

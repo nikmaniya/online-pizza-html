@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    	<link rel="stylesheet" href="normal.css">
+        <link rel="stylesheet" href="pizza_p.css">
+</head>
+	<script src="jquery.js"></script>
+    <script>
+		$(document).ready(function(){
+    $('.img').mouseenter(function(){
+           $(this).animate({width:'500px',height:'250px'});
+    }); 
+	$('.img').mouseleave(function(){
+		$(this).animate({width:'390px',height:'195px'});
+	});
+});
+	</script>
+<body >
+<div >
+    <div class="head1">
+        <center> <img src="logo.png"></center>
+    </div>
+	<div class="navbar" >
+		<a href="home.html">Home</a>
+		<a href="pizza_p.html">Pizza</a>
+		<a href="meals.html">Meals</a>
+			<div class="dropdown">
+				<button class="dropbtn">More 
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="drinks.html">Drinks</a>
+					<a href="magic-pan.html">Magic Pan</a>
+					<a href="sides.html">Sides</a>
+				</div>
+			</div> 
+		<a href="offers.html">Offers</a>
+		<a href="about_as.html">About As</a>
+		<a href="loginpage.html">Login</a>
+	</div>	
+</div>
+    <div style="position: relative;">
+	<hr>
+	
+	<center><h1>-----SIDES-----</h1></center>
+	<div class="p-img">
+		<center><img src="s-3.png" class="img" >
+			<h2>Spanish Tomato Veg Pasta</h2>
+			<h5>Classic Tomato Sauce Given The Twist Of Sundried Tomato, Cheese, Topped With Onion</h5>
+			<map name="add-cart" >
+					<area href="loginpage.html" shape="poly" coords="21,1,130,1,130,55,1,55">
+			</map>
+		<h1>₹ 149<img src="cart.png"  usemap="#add-cart" /></h1></center>
+	</div>
+		<div class="p-img">
+		<center><img src="s-4.png" class="img" >
+			<h2>Spanish Tomato Non Veg Pasta</h2>
+			<h5>Classic Tomato Sauce Given The Flavor Twist Of Sun Dried Tomatoes</h5>
+			<map name="add-cart" >
+					<area href="loginpage.html" shape="poly" coords="21,1,130,1,130,55,1,55">
+			</map>
+		<h1>₹ 169<img src="cart.png"  usemap="#add-cart" /></h1></center>
+	</div>
+		<div class="p-img" style="position:static;">
+		<center><img src="s-1.png" class="img" >
+			<h2>Tandoori Pocket Paneer</h2>
+			<h5>Freshly Baked Pockets Abundantly Stuffed With Spicy Paneer & Flavored Tandoori Sauce</h5>
+			<map name="add-cart" >
+					<area href="loginpage.html" shape="poly" coords="21,1,130,1,130,55,1,55">
+			</map>
+		<h1>₹ 89<img src="cart.png"  usemap="#add-cart" /></h1></center>
+	</div>
+		<div class="p-img" ">
+		<center><img src="s-2.png" class="img" >
+			<h2>Tandoori Pocket Chicken</h2>
+			<h5>Freshly Baked Pockets Abundantly Stuffed Flavored Tandoori Sauce</h5>
+			<map name="add-cart" >
+					<area href="loginpage.html" shape="poly" coords="21,1,130,1,130,55,1,55">
+			</map>
+		<h1>₹ 109<img src="cart.png"  usemap="#add-cart" /></h1></center>
+	</div>
+		<center><div class="p-img" style="float:none;">
+		<img src="s-5.png" class="img" >
+			<h2>Spicy Baked Chicken Wings</h2>
+			<h5>6 Pieces Of Spicy , Tender Chicken Wings</h5>
+			<map name="add-cart" >
+					<area href="loginpage.html" shape="poly" coords="21,1,130,1,130,55,1,55">
+			</map>
+		<h1>₹ 169<img src="cart.png"  usemap="#add-cart" /></h1>
+	</div></center>
+		
+	<hr>
+	<hr>
+		<footer class="foter">
+            <div>
+                <div class="f-order" style="color:white;">
+					<h2>Order Pizza In</h2>
+					<ul>
+						<il>Surat</il><br>
+						<il>Ahmedabad</il><br>
+						<il>Bhavnagar</il><br>
+						<il>Baroda</il><br>
+						<il>Amareli</il><br>
+						<il>Vapi</il><br>
+						<il> Goa</il><br>
+						
+                    </ul>
+                </div>   
+				<div class="f-order-in   " style="color:white;">
+					<h2>Order</h2>
+                    <ul>
+						<il><a href="pizza_p.html" >Pizza</a></il><br>
+						<il><a href="sides.html" >Sides</a></il><br>
+						<il><a href="meals.html" >Meals</a></il><br>
+						<il><a href="drinks.html" >Drinks</a></il><br>
+						<il><a href="magic-pan.html" >Magic Pan</a></il><br>
+						<il><a href="offers.html" >Offers</a></il><br>
+					</ul>
+                </div>
+            </div>
+			<div class="f-about">
+				<h2>M's Pizza In India</h2>
+				<a href="about_as.html">About as</a>
+			</div>
+			<div class="foot_des"><from>
+			<div class="Feedback-form">
+				
+				<div class="f-form">
+					<h1> Feedback</h1>
+					<input type="text"placeholder="Enter The Name">
+				</div>
+				<div class="f-form">
+					<input type="text"placeholder="Enter The Phone Number">
+				</div>
+				<div class="f-form">
+					<textarea cols="45px" rows="4px" placeholder="Discription"></textarea>
+				</div>
+				<div class="f-form"> 
+					<button class="hvr-bounce-to-right">SEND</button>
+				</div>
+			</div>
+			</div></from>
+         
+		</footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,200 @@
+
+.navbar {
+    overflow: hidden;
+    background-color: red;
+    font-family: Arial;
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: red;   
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: gray;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    z-index: 5;
+}
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.head1{
+    font-size: 30  ;
+    background-color:black;
+}
+.b_img{
+    position:relative;
+    top:0px;    
+}
+.f-order{
+    position: absolute;
+}
+.f-order a{
+    padding:15px;  
+}
+.f-order h2{
+    padding-left: 50px;
+}
+.f-order-in{
+    position: absolute;
+    padding-left:150px;
+}
+.f-order-in ul{
+    color: white;
+    padding-left: 100px;
+}
+.f-order-in h2{
+    padding-left: 100px;
+}
+.f-order-in a{
+	text-decoration: none;
+	color:white;
+	z-index:5;
+}
+body{
+       background-color: black;
+}
+#outer_slide{
+	width:800px;
+	margin-left:300px;
+	overflow:hidden;
+}
+.slidebox{
+	position:relative;
+	width:4000px;
+	animation-name:jamal;
+	animation-duration:10s;
+	animation-itearation-count:infinite;
+	
+}
+.slidebox img{
+	float:left;
+}
+.off-img{
+	border-left:thick  white;
+	border: solid red;
+}
+@keyframes jamal{
+	0%{
+		left:0px;
+	}
+	20%{
+		left:0px;
+	}
+	25%{
+		left:-800px;
+	}
+	45%{
+		left:-800px
+	}
+	50%{
+		left:-1600px
+	}
+	70%{
+		left:-1600px
+	}
+	75%{
+		left:-2400px
+	}
+	95%{
+		left:-2400px
+	}
+	100%{
+		left:-3200px
+	}
+}
+center h1{
+	color:white;
+}
+.img_off img{
+	border-color:2px solid white;
+	width:650px;
+	height:300px;
+}
+.f-about{
+	color:white;
+	padding-left:450px;
+	position:absolute;
+}
+.f-about a{
+	text-decoration: none;
+	color:white;
+}	
+.f-form input{
+	padding: 10px ;
+    font-size: 14px;
+    background: none;
+    border: 1px #fff solid;
+    border-radius: 3px;
+    color: #fff;
+    width: 325px;
+    height: auto;
+}
+
+.f-form textarea{
+	padding: 10px;
+    font-size: 14px;
+    background: none;
+    border: 1px #fff solid;
+    border-radius: 3px;
+    color: #fff;
+    width: 325px;
+    height: auto;
+}
+.f-form
+{
+	padding: 0;
+	margin: 10px 0;
+	margin-left:750px;
+	position:relative;
+}
+.foot_des
+{	
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.7;
+	letter-spacing: 1px;
+	text-align: justify;
+	font-size:14px;
+
+}
+.f-form button{
+	padding:5px;
+	width:50%;
+	color:#fff;
+	font-size:17px;
+	border-radius:5px;
+	border-color:red;
+	letter-spacing:1px;
+	background-color:red;
+}
